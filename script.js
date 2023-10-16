@@ -1,34 +1,4 @@
-/*
-
-A JavaScript Blackjack game created June 2013 by Chris Clower 
-(clowerweb.com). Deck class loosely based on a tutorial at:
-http://www.codecademy.com/courses/blackjack-part-1
-
-All graphics and code were designed/written by me except for the
-chip box on the table, which was taken from the image at:
-http://www.marketwallpapers.com/wallpapers/9/wallpaper-52946.jpg
-
-Uses Twitter Bootstrap and jQuery, which also were not created by
-me :)
-
-Fonts used:
-* "Blackjack" logo: Exmouth
-* Symbol/floral graphics: Dingleberries
-* All other fonts: Adobe Garamond Pro
-
-All graphics designed in Adobe Fireworks CS6
-
-You are free to use or modify this code for any purpose, but I ask
-that you leave this comment intact. Please understand that this is
-still very much a work in progress, and is not feature complete nor
-without bugs.
-
-I will also try to comment the code better for future updates :D
-
-*/
-
-/*global $, confirm, Game, Player, renderCard, Card, setActions, 
-resetBoard, showBoard, showAlert, getWinner, jQuery, wager */
+/* This BlackJack Game is based on "JavaScript Blackjack game by Chris Clower" */
 
 (function () {
 

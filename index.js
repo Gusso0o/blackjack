@@ -9,11 +9,14 @@ if (require('electron-squirrel-startup')) {
 const createWindow = () => {
 
   const mainWindow = new BrowserWindow({
-    width: 1100,
-    height: 800,
+    width: 1006,
+    height: 670,
+    icon: 'icon.ico',
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    resizable: false,
+    fullscreen: false,
   });
 
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
